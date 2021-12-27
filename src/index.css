@@ -1,0 +1,27 @@
+@font-face {
+  font-family: "Charlie_Display";
+  src: local("Charlie_Display"),
+    url(./assets/fonts/Charlie_Display-Semibold.woff) format("woff");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "Charlie_Text";
+  src: local("Charlie_Text"),
+    url(./assets/fonts/Charlie_Text-Regular.woff) format("woff");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Charlie_Text";
+  src: local("Charlie_Text"),
+    url(./assets/fonts/Charlie_Text-Semibold.woff) format("woff");
+  font-weight: 600;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Charlie_Text";
+}
