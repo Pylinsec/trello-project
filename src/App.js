@@ -69,11 +69,16 @@ function App() {
               Join over 1,000,000 teams worldwide that are using Trello to get
               more done.
             </p>
-            <div className="row2_logos"></div>
-            <img src={google} alt="google" />
-            <img src={fender} alt="fender" />
-            <img src={squarespace} alt="squrespace" />
-            <img src={costco} alt="costco" />
+            <div className="row3_logos">
+              <img className="logos_google" src={google} alt="google" />
+              <img className="logos_fender" src={fender} alt="fender" />
+              <img
+                className="logos_squrespace"
+                src={squarespace}
+                alt="squrespace"
+              />
+              <img className="logos_costco" src={costco} alt="costco" />
+            </div>
           </div>
         </div>
       </section>

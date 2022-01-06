@@ -150,7 +150,6 @@
   display: inline-block;
   font-weight: 400;
   text-align: center;
-
   vertical-align: middle;
   border: 1px solid transparent;
   padding: 6px 16px;
@@ -185,6 +184,7 @@ a:hover {
   width: 483px;
   height: 123px;
   padding: 0px 15px;
+  /* border: 1px dashed red; */
 }
 .row3_p {
   width: 100%;
@@ -195,6 +195,34 @@ a:hover {
   font-weight: 400;
   line-height: 1.5;
   color: #091e42;
+}
+.row3_logos {
+  width: 453px;
+  height: 39px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logos_google {
+  width: 70.72px;
+  height: 33px;
+  margin: 0px 16px;
+}
+.logos_fender {
+  width: 72.86px;
+  height: 39px;
+  margin: 0px 16px;
+}
+.logos_squrespace {
+  width: 110.72px;
+  height: 22px;
+  margin: 0px 16px;
+}
+.logos_costco {
+  width: 70.72px;
+  height: 28px;
+  margin: 0px 16px;
 }
 /* ---------------------------------768px---------------------------------------- */
 @media only screen and (min-width: 768px) {
@@ -297,6 +325,34 @@ a:hover {
     line-height: 1.5;
     color: #091e42;
   }
+  .row3_logos {
+    width: 690px;
+    height: 39px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .logos_google {
+    width: 99px;
+    height: 33px;
+    margin: 0px 16px;
+  }
+  .logos_fender {
+    width: 102px;
+    height: 39px;
+    margin: 0px 16px;
+  }
+  .logos_squrespace {
+    width: 155px;
+    height: 22px;
+    margin: 0px 16px;
+  }
+  .logos_costco {
+    width: 99px;
+    height: 28px;
+    margin: 0px 16px;
+  }
 }
 /* -------------------------------------976----------------------------------- */
 @media only screen and (min-width: 976px) {
@@ -364,6 +420,37 @@ a:hover {
     font-weight: 400;
     line-height: 1.5;
     color: #091e42;
+  }
+  .row3_logos {
+    width: 930px;
+    height: 39px;
+    margin-left: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .logos {
+    margin-right: 0rem 1rem;
+  }
+  .logos_google {
+    width: 99px;
+    height: 33px;
+    margin: 0px 16px;
+  }
+  .logos_fender {
+    width: 102px;
+    height: 100%;
+    margin: 0px 16px;
+  }
+  .logos_squrespace {
+    width: 155px;
+    height: 22px;
+    margin: 0px 16px;
+  }
+  .logos_costco {
+    width: 99px;
+    height: 28px;
+    margin: 0px 16px;
   }
 }
 /* ------------------------------------1200------------------------------------------ */
