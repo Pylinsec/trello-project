@@ -23,7 +23,7 @@ function App() {
       </header>
       <div>{Hero()}</div>
       <section className="product">{Product()}</section>
-      <section className="features">{Features}</section>
+      <section className="features">{Features()}</section>
     </main>
   );
 }
