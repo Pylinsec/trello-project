@@ -1,6 +1,11 @@
 import "./features.css";
 import view from "./../assets/svg/view.svg";
 function Features() {
+  function Expand(item) {
+    if (item === "none") {
+      item = "block";
+    }
+  }
   return (
     <div className="features_container">
       <div className="features_row1">
@@ -28,6 +33,27 @@ function Features() {
             Trello board. Grow from there with task assignments, timelines,
             productivity metrics, calendars, and more.
           </p>
+          <div className="row2_expand">
+            <h3 className="row2_expand_h3">
+              +
+              <a href="#row2_expand_h3_a" className="row2_expand_h3_a">
+                Learn more
+              </a>
+            </h3>
+            <div id="row2_expand_p_ul">
+              <p>
+                You and your team can start up a Trello board in seconds. With
+                the ability to view board data from many different angles, the
+                entire team stays up-to-date in the way that suits them best:
+              </p>
+              <ul>
+                <li>Use a Timeline view for project planning</li>
+                <li>Calendar helps with time management</li>
+                <li>Table view connects work across boards</li>
+                <li>See board stats with Dashboard, and more!</li>
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
 
