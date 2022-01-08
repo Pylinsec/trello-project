@@ -20,7 +20,15 @@ function Features() {
         <div className="row2_image">
           <img src={view} alt="view" />
         </div>
-        <div className="row2_col"></div>
+        <div className="row2_col">
+          <h5 className="row2_col_h5">Choose a view</h5>
+          <h2 className="row2_col_h2">The board is just the beginning</h2>
+          <p className="row2_col_p">
+            Lists and cards are the building blocks of organizing work on a
+            Trello board. Grow from there with task assignments, timelines,
+            productivity metrics, calendars, and more.
+          </p>
+        </div>
       </div>
 
       <div className="row3"></div>
