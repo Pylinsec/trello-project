@@ -1,5 +1,6 @@
 import "./features.css";
 import view from "./../assets/svg/view.svg";
+import cardback from "./../assets/svg/cardback.svg";
 function Features() {
   function Expand(item) {
     if (item === "none") {
@@ -35,10 +36,7 @@ function Features() {
           </p>
           <div className="row2_expand">
             <h3 className="row2_expand_h3">
-              +
-              <a href="#row2_expand_h3_a" className="row2_expand_h3_a">
-                Learn more
-              </a>
+              +<a className="row2_expand_h3_a">Learn more</a>
             </h3>
             <div id="row2_expand_p_ul">
               <p>
@@ -57,7 +55,43 @@ function Features() {
         </div>
       </div>
 
-      <div className="row3"></div>
+      <div className="row3">
+        <div className="row3_container_img">
+          <img className="row3_img" src={cardback} alt="image" />
+        </div>
+        <div className="row3_container_h5_h2_p">
+          <div className="row3_h5_h2_p">
+            <h5 className="row3_h5">Dive into the details</h5>
+            <h2 className="row3_h2">Cards contain everything you need</h2>
+            <p className="row3_p">
+              Trello cards are your portal to more organized work—where every
+              single part of your task can be managed, tracked, and shared with
+              teammates. Open any card to uncover an ecosystem of checklists,
+              due dates, attachments, conversations, and more.
+            </p>
+            <div className="">
+              <h3 className="row3_h3">
+                +<a>Learn more</a>
+              </h3>
+              <div className="row3_expand">
+                <p>
+                  Spin up a Trello card with a click, then uncover everything it
+                  can hold. Break down bigger card tasks into steps with file
+                  attachment previews, reminders, checklists and comments—emoji
+                  reactions included! Plus, gain powerful perspective by seeing
+                  all cards by list and status at the board level.
+                </p>
+                <p>Your team can:</p>
+                <ul>
+                  <li>Manage deadlines</li> <li>Provide and track feedback</li>
+                  <li>Assign tasks and hand off work</li>
+                  <li>Connect work across apps</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
       <div className="row4"></div>
       <div className="row5"></div>
     </div>
