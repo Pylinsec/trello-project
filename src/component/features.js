@@ -1,6 +1,9 @@
 import "./features.css";
 import view from "./../assets/svg/view.svg";
 import cardback from "./../assets/svg/cardback.svg";
+import automation from ".//../assets/images/png/automation.png";
+import powerups from ".//../assets/images/png/powerups.png";
+
 function Features() {
   function Expand(item) {
     if (item === "none") {
@@ -92,8 +95,72 @@ function Features() {
           </div>
         </div>
       </div>
-      <div className="row4"></div>
-      <div className="row5"></div>
+      <div className="row4">
+        <div class="row4_container_img">
+          <img src={automation} className="row4_img" />
+        </div>
+        <div className="row4_h5_h2_p">
+          <h5 className="row4_h5">Meet your new Butler</h5>
+          <h2 className="row4_h2">No-code automation</h2>
+          <p className="row4_p">
+            Let the robots do the work—so your team can focus on work that
+            matters. With Trello’s built-in automation, Butler, reduce the
+            number of tedious tasks (and clicks) on your project board by
+            harnessing the power of automation across your entire team.
+          </p>
+          <div className="expand">
+            <h3 className="row4_h3">
+              +<a>Learn more</a>
+            </h3>
+            <div className="row4_expand">
+              <p>
+                Butler uses natural language commands to automate just about any
+                task in Trello:
+              </p>
+              <ul>
+                <li>Automate common actions like moving lists</li>
+                <li>Create custom buttons to build process quickly</li>
+                <li>Surface upcoming deadlines to the team</li>
+                <li>Schedule teammate assignments, and more!</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="row3">
+        <div className="row3_container_img">
+          <img className="row3_img" src={powerups} alt="image" />
+        </div>
+        <div className="row3_container_h5_h2_p">
+          <div className="row3_h5_h2_p">
+            <h5 className="row3_h5">Power-Ups</h5>
+            <h2 className="row3_h2">Integrate top work tools</h2>
+            <p className="row3_p">
+              Easily connect the apps your team already uses into your Trello
+              workflow, or add a Power-Up that helps fine-tune one specific
+              need. With hundreds of Power-Ups available, your team’s workflow
+              wishes are covered.
+            </p>
+            <div className="">
+              <h3 className="row3_h3">
+                +<a>Learn more</a>
+              </h3>
+              <div className="row3_expand">
+                <p>
+                  From Reporting to Custom Fields to your beloved software
+                  integrations—we’ve got functionalities, your favorites, and
+                  more!
+                </p>
+                <p>Such as:</p>
+                <ul>
+                  <li>Confluence</li> <li>Slack</li> <li>Dropbox</li>
+                  <li>Google Drive</li> <li>Evernote</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
