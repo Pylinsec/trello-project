@@ -1,0 +1,24 @@
+.checkout_container {
+  width: 100%;
+  height: 408.5px;
+  margin: 48px 0px;
+  padding: 24px 15px;
+}
+.row_container_img {
+  display: none;
+}
+.row_h3_p_p {
+  width: 100%;
+  height: 152.25px;
+  padding: 0px 15px;
+  background-color: aqua;
+}
+/* _________768__________________ */
+@media only screen and (min_width: 768) {
+}
+/* ____________976__________________ */
+@media only scren and (min_width: 976) {
+}
+/* _________________1200s___________________ */
+@media only screen and (min-width: 1200) {
+}

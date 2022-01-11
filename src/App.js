@@ -4,6 +4,7 @@ import Hero from "./component/Hero";
 import icon from "./assets/svg/icon.svg";
 import Product from "./component/Product";
 import Features from "./component/features.js";
+import Checkout from "./component/checkout";
 
 function App() {
   return (
@@ -22,8 +23,9 @@ function App() {
         </nav>
       </header>
       <div>{Hero()}</div>
-      <section className="product">{Product()}</section>
-      <section className="features">{Features()}</section>
+      <section id="product">{Product()}</section>
+      <section id="features">{Features()}</section>
+      <section id="checkout">{Checkout()}</section>
     </main>
   );
 }
