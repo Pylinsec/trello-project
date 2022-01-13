@@ -1,3 +1,7 @@
+/* #signup {
+  width: 510px;
+  height: 236px;
+} */
 .container {
   width: 100vw;
   min-height: 100vh;
@@ -57,6 +61,11 @@
 /* ---------------------------------768px---------------------------------------- */
 @media only screen and (min-width: 768px) {
 }
+/* #signup {
+  width: 100%;
+  height: 236px;
+} */
+
 /* -------------------------------------976----------------------------------- */
 @media only screen and (min-width: 976px) {
 }

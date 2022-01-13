@@ -5,6 +5,7 @@ import icon from "./assets/svg/icon.svg";
 import Product from "./component/Product";
 import Features from "./component/features.js";
 import Checkout from "./component/checkout";
+import Signup from "./component/signup";
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
       <section id="product">{Product()}</section>
       <section id="features">{Features()}</section>
       <section id="checkout">{Checkout()}</section>
+      <section id="signup">{Signup()}</section>
     </main>
   );
 }
