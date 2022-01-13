@@ -1,0 +1,62 @@
+.footer_container {
+  width: 451px;
+  height: 191.5px;
+  margin: 64px 16px;
+}
+.select-container {
+  width: 189px;
+  height: 44px;
+  background-image: url(https://d2k1ftgv7pobq7.cloudfront.net/meta/p/res/images/3a15a34…/caret.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 0;
+  box-sizing: content-box;
+  content: "";
+  margin-left: 130px;
+  padding: 0;
+  /* position: absolute; */
+
+  top: 50%;
+}
+.select {
+  background-color: rgba(255, 255, 255, 0.5);
+  border: 2px solid #edeff0;
+  color: #959da1;
+  padding: 0.5em;
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  overflow: visible;
+  word-wrap: normal;
+}
+.global-footer-list {
+  width: 100vw;
+  height: 48px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+
+  overflow: auto;
+  padding: 0;
+  margin: 0 0 1.25rem;
+}
+.global-footer-list-item {
+  /* width: 79px;
+  height: 24px; */
+  margin: 0px 6.4px;
+  font-family: "Charlie Text", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: gray;
+  background-color: #fff;
+}
+
+.global-footer-list-item-link-quiet {
+  color: #8993a4;
+
+  list-style-type: none;
+  text-decoration: none;
+}

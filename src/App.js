@@ -6,6 +6,8 @@ import Product from "./component/Product";
 import Features from "./component/features.js";
 import Checkout from "./component/checkout";
 import Signup from "./component/signup";
+import Apps1 from "./component/apps1.js";
+import Footer from "./component/footer.js";
 
 function App() {
   return (
@@ -28,6 +30,8 @@ function App() {
       <section id="features">{Features()}</section>
       <section id="checkout">{Checkout()}</section>
       <section id="signup">{Signup()}</section>
+      <section id="apps1">{Apps1()}</section>
+      <footer>{Footer()}</footer>
     </main>
   );
 }
