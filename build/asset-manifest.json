@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.1dccca2d.css",
-    "main.js": "/static/js/main.f37a53c7.js",
+    "main.css": "/static/css/main.d6c3ab38.css",
+    "main.js": "/static/js/main.11d2cfd6.js",
     "static/media/board.png": "/static/media/board.838da3a80768d3e2d177.png",
     "static/media/hero.png": "/static/media/hero.e8878a5487f1b4b94d6f.png",
     "static/media/powerups.png": "/static/media/powerups.00ed61e30147a11aa42c.png",
@@ -21,11 +21,11 @@
     "static/media/atlassianlogograysmall.svg": "/static/media/atlassianlogograysmall.a84c1127dbd06040faf993be7cc957dc.svg",
     "static/media/icon.svg": "/static/media/icon.93b1df99901646b6267abd793c9502c3.svg",
     "index.html": "/index.html",
-    "main.1dccca2d.css.map": "/static/css/main.1dccca2d.css.map",
-    "main.f37a53c7.js.map": "/static/js/main.f37a53c7.js.map"
+    "main.d6c3ab38.css.map": "/static/css/main.d6c3ab38.css.map",
+    "main.11d2cfd6.js.map": "/static/js/main.11d2cfd6.js.map"
   },
   "entrypoints": [
-    "static/css/main.1dccca2d.css",
-    "static/js/main.f37a53c7.js"
+    "static/css/main.d6c3ab38.css",
+    "static/js/main.11d2cfd6.js"
   ]
 }

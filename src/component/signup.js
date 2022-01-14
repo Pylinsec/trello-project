@@ -2,7 +2,7 @@ import "./signup.css";
 function Signup() {
   return (
     <main className="signup_container">
-      <div className="row">
+      <div className="sign_row1">
         <div className="col-md-8">
           <h3 className="row_h3">
             Sign up and get started with Trello today. A world of productive
@@ -10,7 +10,7 @@ function Signup() {
           </h3>
         </div>
       </div>
-      <div className="row">
+      <div className="sign_row2">
         <div className="col-md-6 ">
           <form className="form_input">
             <div className="input_container">
