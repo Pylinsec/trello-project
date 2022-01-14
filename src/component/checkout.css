@@ -127,6 +127,9 @@
   .row1_p2_btn {
     margin-top: 30px;
   }
+  .row2_p2_btn {
+    margin-top: 30px;
+  }
 }
 /* ____________976__________________ */
 @media only screen and (min-width: 976px) {
@@ -183,7 +186,8 @@
     justify-content: space-between;
     /* padding: 0px 15px; */
   }
-  .row1_p2_btn {
+  .row1_p2_btn,
+  .row2_p2_btn {
     margin: 0px 0px;
   }
 }

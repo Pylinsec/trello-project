@@ -1,5 +1,5 @@
 .hero_box {
-  width: 540px;
+  width: 483px;
   height: 368px;
   padding: 0px 15px;
 }
@@ -10,6 +10,10 @@
 
 .title_container {
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .hero_box_title {
@@ -24,6 +28,8 @@
 }
 
 .hero_box_description {
+  width: 453px;
+  height: 120px;
   margin-top: 0;
   margin-bottom: 1.5rem;
   font-family: "Charlie_Text", sans-serif;
@@ -47,20 +53,23 @@
 }
 
 .hero_box_signup_button {
-  width: 100%;
+  width: 453px;
   height: 44px;
+  border: 1px solid transparent;
   background-color: #0065ff;
   border-radius: 6px;
   border: none;
   color: white;
   font-size: 20px;
+  padding: 6px 24px;
 }
 /* ---------------------------------768px---------------------------------------- */
 @media only screen and (min-width: 768px) {
   .hero_box {
     width: 720px;
-    height: 368px;
-    padding: 0px 15px;
+    height: 535px;
+    padding: 112px 15px 80px 15px;
+    margin: 0px 22px;
   }
 
   .title_container {
@@ -78,6 +87,8 @@
   }
 
   .hero_box_description {
+    width: 690px;
+    height: 90px;
     text-align: left;
   }
 
@@ -121,11 +132,24 @@
   }
 
   .title_container {
-    /* height: 100%; */
     width: 560px;
+    height: 389px;
+    padding: 0px 15px;
     display: flex;
     flex-direction: column;
     /* align-items: center; */
+  }
+  .hero_box_title {
+    width: 100%;
+    height: 120px;
+    font-size: 3rem;
+    line-height: 1.25;
+    text-align: left;
+  }
+  .hero_box_description {
+    width: 100%;
+    height: 120px;
+    text-align: left;
   }
 }
 /* ------------------------------------1200------------------------------------------ */
