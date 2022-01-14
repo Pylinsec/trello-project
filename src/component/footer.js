@@ -1,4 +1,5 @@
 import "./footer.css";
+import atlassianlogograysmall from "./../assets/svg/atlassianlogograysmall.svg";
 function Footer() {
   return (
     <main className="footer_container">
@@ -81,46 +82,46 @@ function Footer() {
           </option>
         </select>
       </div>
-      <ul class="global-footer-list">
-        <li class="global-footer-list-item">
+      <ul className="global-footer-list">
+        <li className="global-footer-list-item">
           <a
-            class="global-footer-list-item-link-quiet"
+            className="global-footer-list-item-link-quiet"
             href="/templates"
             data-analytics-link="templatesFooterLink"
           >
             Templates
           </a>
         </li>
-        <li class="global-footer-list-item">
+        <li className="global-footer-list-item">
           <a
-            class="global-footer-list-item-link-quiet"
+            className="global-footer-list-item-link-quiet"
             href="/pricing"
             data-analytics-link="pricingFooterLink"
           >
             Pricing
           </a>
         </li>
-        <li class="global-footer-list-item">
+        <li className="global-footer-list-item">
           <a
-            class="global-footer-list-item-link-quiet"
+            className="global-footer-list-item-link-quiet"
             href="/platforms"
             data-analytics-link="platformsFooterLink"
           >
             Apps
           </a>
         </li>
-        <li class="global-footer-list-item">
+        <li className="global-footer-list-item">
           <a
-            class="global-footer-list-item-link-quiet"
-            href="https://www.atlassian.com/company/careers/trello"
+            className="global-footer-list-item-link-quiet"
+            href="https://www.aclassNameian.com/company/careers/trello"
             data-analytics-link="jobsFooterLink"
           >
             Jobs
           </a>
         </li>
-        <li class="global-footer-list-item">
+        <li className="global-footer-list-item">
           <a
-            class="global-footer-list-item-link-quiet"
+            className="global-footer-list-item-link-quiet"
             target="_blank"
             data-analytics-link="blogFooterLink"
             href="https://blog.trello.com/"
@@ -128,45 +129,45 @@ function Footer() {
             Blog
           </a>
         </li>
-        <li class="global-footer-list-item">
+        <li className="global-footer-list-item">
           <a
-            class="global-footer-list-item-link-quiet"
+            className="global-footer-list-item-link-quiet"
             href="http://developers.trello.com"
             data-analytics-link="developersFooterLink"
           >
             Developers
           </a>
         </li>
-        <li class="global-footer-list-item">
+        <li className="global-footer-list-item">
           <a
-            class="global-footer-list-item-link-quiet"
+            className="global-footer-list-item-link-quiet"
             href="/about"
             data-analytics-link="aboutFooterLink"
           >
             About
           </a>
         </li>
-        <li class="global-footer-list-item">
+        <li className="global-footer-list-item">
           <a
-            class="global-footer-list-item-link-quiet"
+            className="global-footer-list-item-link-quiet"
             href="http://help.trello.com/"
             data-analytics-link="helpFooterLink"
           >
             Help
           </a>
         </li>
-        <li class="global-footer-list-item">
+        <li className="global-footer-list-item">
           <a
-            class="global-footer-list-item-link-quiet"
+            className="global-footer-list-item-link-quiet"
             href="/legal"
             data-analytics-link="legalFooterLink"
           >
             Legal
           </a>
         </li>
-        <li class="global-footer-list-item">
+        <li className="global-footer-list-item">
           <a
-            class="global-footer-list-item-link-quiet"
+            className="global-footer-list-item-link-quiet"
             href="#"
             data-analytics-link="cookieFooterLink"
             onclick="trelloCookieConsentDialog()"
@@ -174,9 +175,9 @@ function Footer() {
             Cookie Settings
           </a>
         </li>
-        <li class="global-footer-list-item">
+        <li className="global-footer-list-item">
           <a
-            class="global-footer-list-item-link-quiet"
+            className="global-footer-list-item-link-quiet"
             href="/privacy"
             data-analytics-link="privacyFooterLink"
           >
@@ -184,7 +185,11 @@ function Footer() {
           </a>
         </li>
       </ul>
-      <div className="3"></div>
+      <p className="global-footer-detail">
+        {/* <img className="atlassian-logo-small white" src={""} /> */}
+        <img className="atlassian_logo" src={atlassianlogograysmall} />
+        &nbsp;© Copyright 2022. All rights reserved.
+      </p>
     </main>
   );
 }
