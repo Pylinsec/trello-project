@@ -5,6 +5,7 @@ import icon from "./assets/svg/icon.svg";
 import Product from "./component/Product";
 import Features from "./component/features.js";
 import Checkout from "./component/checkout";
+import Customer from "./component/customer.js";
 import Signup from "./component/signup";
 import Apps1 from "./component/apps1.js";
 import Footer from "./component/footer.js";
@@ -29,6 +30,7 @@ function App() {
       <section id="product">{Product()}</section>
       <section id="features">{Features()}</section>
       <section id="checkout">{Checkout()}</section>
+      <section id="customer">{Customer()}</section>
       <section id="signup">{Signup()}</section>
       <section id="apps1">{Apps1()}</section>
       <footer>{Footer()}</footer>

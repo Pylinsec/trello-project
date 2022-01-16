@@ -1,7 +1,12 @@
-/* #signup {
-  width: 510px;
-  height: 236px;
-} */
+#customer {
+  width: 100%;
+  min-height: 100%;
+  background-color: #e6fcff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 50px;
+}
 .container {
   width: 100vw;
   min-height: 100vh;
